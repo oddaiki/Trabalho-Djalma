@@ -1,0 +1,94 @@
+* {
+    font-family: Helvetica;
+    font-weight: 400;
+}
+
+#titulo {
+    color: #26ff00;
+    text-align: center;
+}
+
+#placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogador1, #jogador2 {
+    position: relative;
+    flex-grow: 1;
+    border-radius: 5px;
+    width: 200px;
+    padding: 20px;
+    color: rgba(255, 0, 0, 0.267);
+}
+
+#jogador1 {
+    background-color: #ff7675;
+}
+
+#jogador2 {
+    background-color: #74b9ff;
+}
+
+ul#jogador1-escolha, ul#jogador2-escolha {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul#jogador1-escolha li, ul#jogador2-escolha li {
+    display: inline;
+}
+
+ul#jogador1-escolha li a, ul#jogador2-escolha li a{
+    opacity: .2;
+}
+
+ul#jogador1-escolha li a:hover, ul#jogador1-escolha li a.selecionado, ul#jogador2-escolha li a.selecionado {
+    opacity: 1;
+}
+
+ul#jogador1-escolha li a img, ul#jogador2-escolha li a img {
+    max-width: 80px;
+}
+
+#versus {
+    font-size: 40px;
+    text-align: center;
+    width: 70px;
+}
+
+#jogador1-nome, #jogador2-nome {
+    margin: 0;
+    padding: 0;
+}
+
+#jogador-nome {
+   text-align: left;
+}
+
+#jogador2-nome{
+   text-align: right;
+}
+
+#jogador1-pontos, #jogador2-pontos {
+    position: absolute;
+    top: 8px;
+    font-size: 32px;
+}
+
+#jogador-pontos {
+    right: 20px;
+}
+
+#mensagens {
+    background-color: rgb(92, 80, 80);
+    font-size: 32px;
+    border-radius: 5px;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+

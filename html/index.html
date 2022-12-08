@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+    <title>Jogo</title>
+</head>
+<body>
+    <div id="placar">
+        <div id="jogador">
+            <h2 id="jogador1-nome">Jogador1</h2>
+            <span id="jogador-pontos">0</span>
+
+           <ul id="jogador2-escolha">
+            <li><a id="jogador1-escolha-1" onclick="jogar(1)"><img src="img/pedra2.png"></a></li>
+            <li><a id="jogador1-escolha-2" onclick="jogar(2)"><img src="img/papel2.png"></a></li>
+            <li><a id="jogador1-escolha-3" onclick="jogar(3)"><img src="img/tesoura2.png"></a></li>
+           </ul>
+        </div>
+
+        <div id="versus">vs</div>
+
+        <div id="jogador2">
+            <h2 id="jogador2-nome">Jogador2</h2>
+            <span id="jogador2-pontos">0</span>
+
+           <ul id="jogador2-escolha">
+            <li><a id="jogador2-escolha-1"><img src="img/pedra1.png"></a></li>
+            <li><a id="jogador2-escolha-2"><img src="img/papel1.png"></a></li>
+            <li><a id="jogador2-escolha-3"><img src="img/tesoura1.png"></a></li>
+           </ul>
+        </div>
+    </div>
+</body>
+</html>
